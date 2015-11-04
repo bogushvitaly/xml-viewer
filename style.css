@@ -1,0 +1,63 @@
+.tooltip {
+  position: absolute;
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: 3px 5px 0px #eee;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+#title {
+  border: 1px solid black;
+  margin: 2px;
+  padding: 3px;
+  margin-bottom: 15px;
+  text-align: center;
+  background: #eee;
+  cursor: move;
+}
+
+input {
+  margin-bottom: 8px;
+}
+
+button {
+  float: right;
+  margin-left: 5px;
+}
+
+.panel {
+  margin-bottom: 10px;
+  font-family: monospace;
+  background: #eee;
+  padding: 2px;
+}
+
+.active_tab {
+  font-weight: bold;
+  color: black;
+}
+
+.tag_name {
+  color: red;
+}
+
+.attr_name {
+  color: blue;
+}
+
+.attr_value {
+  color: #ed03fe;
+}
+
+.text_node {
+  color: rgba(27, 0, 54, .95);
+}
+
+.comment {
+  color: rgba(32, 168, 66, .95);
+}
